@@ -12,4 +12,6 @@ namespace proyecto\Vista;
 class alumnoViews
 {
 
+    public static function delamuerte(){ echo "de la muerte";}
+
 }
