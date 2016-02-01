@@ -8,9 +8,10 @@ class alumnoViews
 
         ?>
 
-        <h1>Inicio</h1>
+        <h1>Inicio martin</h1>
 
-
+        <h3>epaaaaa</h3>
+        
         <?php
 
         
