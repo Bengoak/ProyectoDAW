@@ -8,12 +8,12 @@
  */
 class View
 {
-    private static $url_raiz = "http://192.168.33.10/ProyectoDAW/proyecto/Pruebas";
+    protected static $url_raiz = "http://192.168.33.10/ProyectoDAW/proyecto/Pruebas";
 
     /**
      * @return string
      */
-    public static function getUrlRaiz()
+    protected static function getUrlRaiz()
     {
         return self::$url_raiz;
     }
@@ -21,7 +21,7 @@ class View
     /**
      * @param string $url_raiz
      */
-    public static function setUrlRaiz($url_raiz)
+    protected static function setUrlRaiz($url_raiz)
     {
         self::$url_raiz = $url_raiz;
     }
