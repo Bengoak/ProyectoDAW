@@ -42,19 +42,37 @@ class Alumnoview
 
         ?>
 
-        <form name="insertar" method="post" action="<?php echo View::getUrlRaiz();?>/Controlador/Puente.php">
-            <fieldset>
-                <legend>Insertar nuevo usuario</legend>
-                Dni: <input type="text" name="dni"><br>
-                Nombre: <input type="text" name="nom"><br>
-                Primer apellido: <input type="text" name="ape1"><br>
-                Segundo apellido: <input type="text" name="ape2"><br>
-                Fecha de nacimiento: <input type="text" name="fecha_nac"><br><br>
-                <input type="submit" value="Insertar" name="enviar">
-                <input type="hidden" name="codigo" value="1">
-            </fieldset>
-        </form>
-
+        <div class="container">
+            <form name="insertar" class="insertar" method="post" action="<?php echo View::getUrlRaiz();?>/Controlador/Puente.php">
+                <fieldset>
+                    <legend>Insertar nuevo usuario</legend>
+                    <div class="form-group">
+                        <label class="">Dni:  </label>
+                        <input class="" type="text" name="dni">
+                    </div>
+                    <div class="form-group">
+                        <label class="">Nombre:</label>
+                        <input class="" type="text" name="nom">
+                    </div>
+                    <div class="form-group">
+                        <label class="">Primer apellido: </label>
+                        <input class="" type="text" name="ape1">
+                    </div>
+                    <div class="form-group">
+                        <label class="">Segundo apellido:</label>
+                        <input class="" type="text" name="ape2">
+                    </div>
+                    <div class="form-group">
+                        <label class="">Fecha de nacimiento: </label>
+                        <input class="" type="text" name="fecha_nac">
+                    </div>
+                    <div class="form-group">
+                        <input class="btn btn-primary" type="submit" value="Insertar" name="enviar" id="enviar">
+                    </div>
+                    <input type="hidden" name="codigo" value="1">
+                </fieldset>
+            </form>
+        </div>
         <?php
 
         require_once __DIR__."/../plantilla/pie.php";
