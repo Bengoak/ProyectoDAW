@@ -30,28 +30,28 @@ class Alumnoview extends View
         require_once __DIR__."/../plantilla/cabecera.php";
         ?>
         <div class="container">
-            <form name="insertar" id="insertar" method="post" action="<?php echo parent::getUrlRaiz();?>/Controlador/Puente.php">
+            <form class="col-md-6" name="insertar" id="insertar" method="post">
                 <fieldset>
                     <legend>Insertar nuevo usuario</legend>
                     <div class="form-group">
-                        <label class="">Dni:  </label>
-                        <input class="" type="text" name="dni">
+                        <label class="control-label">Dni:  </label>
+                        <input id="dni" class="form-control" type="text" name="dni">
                     </div>
                     <div class="form-group">
-                        <label class="">Nombre:</label>
-                        <input class="" type="text" name="nom">
+                        <label class="control-label">Nombre:</label>
+                        <input id="nom" class="form-control" type="text" name="nom">
                     </div>
                     <div class="form-group">
-                        <label class="">Primer apellido: </label>
-                        <input class="" type="text" name="ape1">
+                        <label class="control-label">Primer apellido: </label>
+                        <input id="ape1" class="form-control" type="text" name="ape1">
                     </div>
                     <div class="form-group">
-                        <label class="">Segundo apellido:</label>
-                        <input class="" type="text" name="ape2">
+                        <label class="control-label">Segundo apellido:</label>
+                        <input id="ape2" class="form-control" type="text" name="ape2">
                     </div>
                     <div class="form-group">
-                        <label class="">Fecha de nacimiento: </label>
-                        <input class="" type="text" name="fecha_nac">
+                        <label class="control-label">Fecha de nacimiento: </label>
+                        <input id="fecha_nac" class="form-control" type="text" name="fecha_nac">
                     </div>
                     <div class="form-group">
                         <input class="btn btn-primary" type="submit" value="Insertar" name="enviar" id="enviar">
