@@ -8,7 +8,7 @@
  */
 class View
 {
-    protected static $url_raiz = "http://192.168.33.10/ProyectoDAW/proyecto/Pruebas";
+    protected static $url_raiz = "http://192.168.33.10/ProyectoDAW/proyecto";
 
     /**
      * @return string
