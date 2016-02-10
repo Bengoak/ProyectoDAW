@@ -1,5 +1,7 @@
 <?php
 
-//Pagina principal de la aplicacion.
+require_once __DIR__."/Vista/Vista.php";
+
+Vista::empezar();
 
 ?>

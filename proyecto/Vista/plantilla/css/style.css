@@ -17,7 +17,7 @@ ul#nav a:hover{background: #fff;color: #000;}
 ul#nav li.activelink a,ul#nav li.activelink a:hover{background: #FFF;color: #003}
 
 #nav > li { float:left; } 
-#nav li a { background:#E7F1F8 color:#FFF; display:block;}   
+#nav li a { background:#E7F1F8;color:#FFF; display:block;}
 #nav li a:hover { background:#fff;color:#000; } 
 #nav li ul { display:none; position:absolute;margin-left:-3px;} 
 #nav li:hover > ul { display:block; } 
